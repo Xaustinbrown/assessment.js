@@ -5,6 +5,8 @@
     Reorganize the following steps of the Software Development Lifecycle to be in their correct order.
 */
 
+let arrayOrder = ['Analyse', 'Design', 'Planning', 'Testing', 'Implementation' , 'Maintain']
+console.log(arrayOrder)
 // Implementation
 // Design
 // Maintain
@@ -18,4 +20,9 @@
     Create a variable for each of the above steps of the Software Development Lifecycle and set the values of each variable to a definition of the step.
     The first one is done for you. 
 */
-const planning = "This is the first step, in which the end goal of the software is determined and defined. Developers typically will see what systems are already in place, and determine what features will need to be added." 
+const Planning = "This is the first step, in which the end goal of the software is determined and defined. Developers typically will see what systems are already in place, and determine what features will need to be added." 
+const Design = "stage where software developers define the technical details of the product." 
+const Maintain = "This is the first step, in which the end goal of the software is determined and defined. Developers typically will see what systems are already in place, and determine what features will need to be added." 
+const Analyse = "This is the first step, in which the end goal of the software is determined and defined. Developers typically will see what systems are already in place, and determine what features will need to be added." 
+const Testing = "This is the first step, in which the end goal of the software is determined and defined. Developers typically will see what systems are already in place, and determine what features will need to be added." 
+const Implementation = "This is the first step, in which the end goal of the software is determined and defined. Developers typically will see what systems are already in place, and determine what features will need to be added." 
