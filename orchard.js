@@ -50,7 +50,10 @@ const pinkPrice = .55
 */
 
 // CODE HERE
-
+let totalAcres = fujiAcres + galaAcres + pinkAcres
+for (let i = 0; i < totalAcres.length; i++){
+    console.log(totalAcres[i])
+}
 
 
 
