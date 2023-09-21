@@ -60,7 +60,7 @@ console.log(gitStatusDefinition)
 //CODE HERE
 let gitAddDefinition = "changing information in the directory"
 let gitAddCode = "git add ."
-console.log(gitAddDefinition, gitAddCode)
+console.log(`${gitAddDefinition}, typed: ${gitAddCode}`)
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -73,7 +73,7 @@ console.log(gitAddDefinition, gitAddCode)
 //CODE HERE
 let gitCommitDefinition = "it the tracked progress of any Git project"
 let gitCommitCode = "git commit -m 'this is a message' "
-console.log(`${gitCommitDefinition} CommitCode: ${gitCommitCode}`)
+console.log(`${gitCommitDefinition} typed: ${gitCommitCode}`)
 
 //////////////////PROBLEM 8////////////////////
 /*

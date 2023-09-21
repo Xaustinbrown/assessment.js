@@ -51,8 +51,8 @@ const pinkPrice = .55
 
 // CODE HERE
 
-  
-        let totalAcres = [`Fuji Harvest Yield: ${fujiAcres}, Gala Acres: ${galaAcres}, Pink Ranch: ${pinkAcres}`]
+// I'm not even sure how to approach this problem
+        let totalAcres = ''
 
         for (let i=0; i < totalAcres.length; ++i) {
                 console.log(totalAcres)
@@ -76,8 +76,8 @@ const pinkPrice = .55
 */
 
 // CODE HERE
- totalAcres 
-
+ totalAcres = `Fuji Harvest Yield: ${fujiAcres} Gala Acres: ${galaAcres} Pink Ranch: ${pinkAcres}`
+ console.log(totalAcres)
 
 
 
