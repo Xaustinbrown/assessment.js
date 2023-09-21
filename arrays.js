@@ -1,10 +1,12 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
-const faveColors = ['red', 'green', 'black'];
+let faveColors = ['red', 'green', 'black'];
+
 
 //CODE HERE
-colorCopy = faveColors.slice(0,2);
+//A little slice of humble Array pie
+colorCopy = faveColors.slice(0, 3);
 console.log(colorCopy);
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
@@ -38,11 +40,11 @@ const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 // CODE HERE
 let answers = []
 for (let i = 0; i < bigOrSmallArray.length; i++){
-  if (bigOrSmallArray.length > 100){
-    answers = bigOrSmallArray.push("big")
+  if (bigOrSmallArray[i] > 100 === 0){
+     bigOrSmallArray.push("big") = answers
     console.log(answers)
-  } if(bigOrSmallArray.length < 100){
-    answers = bigOrSmallArray.push("small")
+  } if(bigOrSmallArray[i] < 100 === 0){
+     bigOrSmallArray.push("small") = answers
     console.log(answers)
   }
 }

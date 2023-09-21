@@ -50,10 +50,15 @@ const pinkPrice = .55
 */
 
 // CODE HERE
-let totalAcres = fujiAcres + galaAcres + pinkAcres
-for (let i = 0; i < totalAcres.length; i++){
-    console.log(totalAcres[i])
-}
+
+  
+        let totalAcres = [`Fuji Harvest Yield: ${fujiAcres}, Gala Acres: ${galaAcres}, Pink Ranch: ${pinkAcres}`]
+
+        for (let i=0; i < totalAcres.length; ++i) {
+                console.log(totalAcres)
+            }
+         
+
 
 
 
@@ -71,7 +76,7 @@ for (let i = 0; i < totalAcres.length; i++){
 */
 
 // CODE HERE
-
+ totalAcres 
 
 
 
