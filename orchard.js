@@ -52,10 +52,11 @@ const pinkPrice = .55
 // CODE HERE
 
 // I'm not even sure how to approach this problem
-        let totalAcres = ''
+        let totalAcres = fujiAcres + galaAcres + pinkAcres
+        console.log(totalAcres)
 
         for (let i=0; i < totalAcres.length; ++i) {
-                console.log(totalAcres)
+                console.log(totalAcres[i])
             }
          
 
@@ -114,8 +115,11 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
-
-
+//I'm not sure if I was going in the right direction and this is how interpreted the written instructions.
+while (days < acresLeft) {
+    days++
+}
+console.log(`Days of work: ${days}`)
 
 // PROBLEM 4
 
@@ -143,10 +147,46 @@ let days = 0
 
 // CODE HERE
 
-// let fujiTons =
-// let galaTons =
-// let pinkTons =
+//Using this for a reference 
+// const fujiAcres = [2, 3, 3, 2, 2, 2, 1]
+// const galaAcres = [5, 2, 4, 3, 6, 2, 4]
+// const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
 
+// const fujiPrice = .89 
+// const galaPrice = .64
+// const pinkPrice = .55
+
+let fujiTons = [13, 19.5, 19.5, 13, 13, 13, 6.5]
+let galaTons = [32.5, 13, 26, 13, 39, 13, 26]
+let pinkTons = [6.5, 32.5, 26, 13, 32.5, 26]
+
+let newFujiTons = fujiTons;
+let newGalaTons = galaTons;
+let newPinkTons = pinkTons;
+
+console.log("Weight of yeild from Fuji Acres")
+console.log("-----------------------")
+for (let i = 0; i < newFujiTons.length; i++){
+    console.log(newFujiTons[i])
+    console.log("-----------------------")
+    console.log("")
+}
+
+console.log("Weight of yeild from Gala Acres")
+console.log("-----------------------")
+for (let i = 0; i < newGalaTons.length; i++){
+        console.log(newGalaTons[i])
+        console.log("-----------------------")
+        console.log("")
+}
+
+console.log("Weight of yeild from Gala Acres")
+console.log("-----------------------")
+for (let i = 0; i < newPinkTons.length; i++){
+        console.log(newPinkTons[i])
+        console.log("-----------------------")
+        console.log("")
+}
 
 
 
